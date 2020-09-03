@@ -46,8 +46,9 @@ Para crear párrafos, use una línea en blanco para separar una o más líneas d
 
 Para crear un salto de línea (\<br>), finalice una línea con dos o más espacios y luego escriba ENTER.
 También con dos saltos de linea (ENTER ENTER)
+(Representé los dos espacios con guines bajos para mejor visualización, pero se deben usar dos espacios)
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
-| Hola Mundo  <br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
+| Hola Mundo__<br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
 | Hola Mundo<br/><br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
