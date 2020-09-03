@@ -49,5 +49,5 @@ También con dos saltos de linea (ENTER ENTER)
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
-| Hola Mundo  \nHello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
-| Hola Mundo\n\nHello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
+| Hola Mundo  <br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
+| Hola Mundo<br/><br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
