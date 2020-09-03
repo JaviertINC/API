@@ -45,10 +45,34 @@ Para crear párrafos, use una línea en blanco para separar una o más líneas d
 ### Saltos de Linea
 
 Para crear un salto de línea (\<br>), finalice una línea con dos o más espacios y luego escriba ENTER.
-También con dos saltos de linea (ENTER ENTER)
+También con dos saltos de linea (ENTER ENTER)  
 (Representé los dos espacios con guines bajos para mejor visualización, pero se deben usar dos espacios)
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
 | Hola Mundo__<br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
 | Hola Mundo<br/><br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
+
+---
+
+### Bold (Negrita)
+
+Para poner el texto en negrita, agregue dos asteriscos bajos antes y después de una palabra o frase. Para poner en negrita la mitad de una palabra para dar énfasis, agregue dos asteriscos sin espacios alrededor de las letras.
+
+
+| jtDown | Código en HTML | Previsualización |
+|---|---|---|
+| **Hola Mundo** | \<strong>Hola Mundo\</strong> | <strong>Hola Mundo</strong> |
+| **Hola M**undo | \<strong>Hola M\</strong>undo | <strong>Hola M</strong>undo |
+
+
+### Italic (Cursiva)
+
+Para poner el texto en cursiva, agregue dos slash (//) antes y después de una palabra o frase. Para poner en cursiva la mitad de una palabra para dar énfasis, agregue un asterisco sin espacios alrededor de las letras.
+
+
+| jtDown | Código en HTML | Previsualización |
+|---|---|---|
+| //Hola Mundo// | \<em>Hola Mundo\</em> | <em>Hola Mundo</em> |
+| //Hola M//undo | \<em>Hola M\</em>undo | <em>Hola M</em>undo |
+
