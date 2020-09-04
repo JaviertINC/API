@@ -8,7 +8,7 @@ Actualmente está integrado en el editor de mi herramienta [Teextus](https://jav
 
 # Sintaxis
 
-El sintaxis básico de jtDown está basado en el funcionamiento básico de MarkDown.
+El sintaxis básico de jtDown está basado en el funcionamiento de MarkDown.
 
 ### Títulos
 
@@ -68,7 +68,7 @@ Para poner el texto en negrita, agregue dos asteriscos bajos antes y después de
 
 ### Italic (Cursiva)
 
-Para poner el texto en cursiva, agregue dos slash (//) antes y después de una palabra o frase. Para poner en cursiva la mitad de una palabra para dar énfasis, agregue un asterisco sin espacios alrededor de las letras.
+Para poner el texto en cursiva, agregue dos slash (//) antes y después de una palabra o frase. Para poner en cursiva la mitad de una palabra para dar énfasis, agregue el doble slash sin espacios alrededor de las letras.
 
 
 | jtDown | Código en HTML | Previsualización |
@@ -76,3 +76,14 @@ Para poner el texto en cursiva, agregue dos slash (//) antes y después de una p
 | //Hola Mundo// | \<em>Hola Mundo\</em> | <em>Hola Mundo</em> |
 | //Hola M//undo | \<em>Hola M\</em>undo | <em>Hola M</em>undo |
 
+---
+
+### Strikethrough (Tachado)
+
+Para tachar el texto, agregue dos almhoadillas (\~~) antes y después de una palabra o frase. Para tachar la mitad de una palabra para dar énfasis, agregue el doble almohadillas sin espacios alrededor de las letras.
+
+
+| jtDown | Código en HTML | Previsualización |
+|---|---|---|
+| \~~Hola Mundo\~~ | \<del>Hola Mundo\</del> | <del>Hola Mundo</del> |
+| \~~Hola M\~~undo | \<del>Hola M\</del>undo | <del>Hola M</del>undo |
