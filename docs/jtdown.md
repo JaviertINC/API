@@ -97,8 +97,8 @@ Para subrayar el texto, agregue dos guiones bajo (\_\_) antes y después de una 
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
-| \_\_Hola Mundo\_\_ | \<u>Hola Mundo\</u> | <del>Hola Mundo</del> |
-| \_\_Hola M\_\_undo | \<u>Hola M\</u>undo | <del>Hola M</del>undo |
+| \_\_Hola Mundo\_\_ | \<u>Hola Mundo\</u> | <u>Hola Mundo</u> |
+| \_\_Hola M\_\_undo | \<u>Hola M\</u>undo | <u>Hola M</u>undo |
 
 ---
 
@@ -110,3 +110,12 @@ Para citar textos, agregue dos puntos con doble comillas (\:\") antes y doble co
 |---|---|---|
 | \:\"Hola Mundo\"\: | \<q>Hola Mundo\</q> | <q>Hola Mundo</q> |
 
+---
+
+### Citas en bloques (Blockquotes)
+
+Para citar textos en un bloque, agregue un signo mayor al inicio de una linea de texto.
+
+| jtDown | Código en HTML | Previsualización |
+|---|---|---|
+| \> Hola Mundo | \<blockquote>Hola Mundo\</blockquote> | <blockquote>Hola Mundo</blockquote> |
