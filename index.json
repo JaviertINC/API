@@ -11,7 +11,7 @@
       "id": "2",
       "status": "1",
       "name": "jtDown.js",
-      "file": "jsdown.md",
+      "file": "jtdown.md",
       "icon": "fa fa-js"
     },
     {
@@ -27,6 +27,13 @@
       "name": "jtImages",
       "file": "jtimages.md",
       "icon": "fa fa-images"
+    },
+    {
+      "id": "5",
+      "status": "0",
+      "name": "Teextus",
+      "file": "teextus.md",
+      "icon": "fa fa-envelope-open-text"
     }
   ]
 }
