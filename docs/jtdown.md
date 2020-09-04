@@ -119,3 +119,56 @@ Para citar textos en un bloque, agregue un signo mayor al inicio de una linea de
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
 | \> Hola Mundo | \<blockquote>Hola Mundo\</blockquote> | <blockquote>Hola Mundo</blockquote> |
+
+---
+
+### Enlaces
+
+Para crear un enlace, incluya el texto del enlace entre corchetes (por ejemplo, \[Web de JaviertINC]) y luego sígalo inmediatamente con la URL entre paréntesis (por ejemplo, (https:\//javiertinc.cl)).
+
+| jtDown | Código en HTML | Previsualización |
+|---|---|---|
+| [Web de JaviertINC](https://javiertinc.cl) | \<a href="https://javiertinc.cl" target="_blank">Web de JaviertINC\</a> | <a href="https://javiertinc.cl" target="_blank">Hola Mundo</a> |
+
+---
+
+# Extras
+
+### Icons
+
+También es posible integrar iconos de [FontAwesome](https://fontawesome.com/icons) y jt.icons.faithful.css (PRONTO más documentación)
+
+```
+!!fa-moon
+!!far-moon
+!!fab-github
+!!jti-mc-diamond-pickaxe  [BETA]
+```
+
+---
+
+### Captys Embed
+
+También puedes integrar capturas compartidas a través de Captys.
+Similar a un enlace, pero debes definir estos valores \[captys-ANCHOxALTO](ID o enlace de la captura)
+
+```
+[captys-512x512](https://javiertinc.cl/captys/c/wchlMyp)
+[captys-512x512](wchlMyp)
+```
+Nota: En Captys, al subir tu captura, se generará un código de Inserción EMBED para Teextus, puedes copiarlo listo para usar con jtDown.js
+
+---
+
+### Youtube Embed Videos
+
+También puedes insertar videos de Youtube de una forma muy fácil.
+Similar a un enlace, pero debes definir estos valores \[yt](ID o enlace del video)
+
+```
+[yt](PZmhpH7DPug)
+[yt](https://youtu.be/PZmhpH7DPug)
+[yt](https://youtube.com/watch?v=PZmhpH7DPug)
+[yt](https://youtube.com/embed/PZmhpH7DPug)
+[yt](https://www.youtube-nocookie.com/embed/PZmhpH7DPug)
+```
