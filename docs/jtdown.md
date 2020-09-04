@@ -33,7 +33,7 @@ Por compatibilidad, siempre ponga un espacio entre los signos numéricos y el no
 
 ---
 
-### Parrafos
+### Párrafos
 
 Para crear párrafos, use una línea en blanco para separar una o más líneas de texto.
 
@@ -137,6 +137,8 @@ Para crear un enlace, incluya el texto del enlace entre corchetes (por ejemplo, 
 ### Icons
 
 También es posible integrar iconos de [FontAwesome](https://fontawesome.com/icons) y jt.icons.faithful.css (PRONTO más documentación)
+
+Ingresa `<3` para retornar un icono de corazón con FontAwesome.
 
 ```
 !!fa-moon
