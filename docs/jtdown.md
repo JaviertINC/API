@@ -85,5 +85,5 @@ Para tachar el texto, agregue dos almhoadillas (\~~) antes y después de una pal
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
-| \~~Hola Mundo\~~ | \<del>Hola Mundo\</del> | <del>Hola Mundo</del> |
-| \~~Hola M\~~undo | \<del>Hola M\</del>undo | <del>Hola M</del>undo |
+| \~\~Hola Mundo\~\~ | \<del>Hola Mundo\</del> | <del>Hola Mundo</del> |
+| \~\~Hola M\~\~undo | \<del>Hola M\</del>undo | <del>Hola M</del>undo |
