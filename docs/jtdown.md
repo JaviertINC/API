@@ -124,11 +124,11 @@ Para citar textos en un bloque, agregue un signo mayor al inicio de una linea de
 
 ### Enlaces
 
-Para crear un enlace, incluya el texto del enlace entre corchetes (por ejemplo, \[Web de JaviertINC]) y luego sígalo inmediatamente con la URL entre paréntesis (por ejemplo, (https:\//javiertinc.cl)).
+Para crear un enlace, incluya el texto del enlace entre corchetes (por ejemplo, \[Web de JaviertINC]) y luego sígalo inmediatamente con la URL entre paréntesis (por ejemplo, (`https://javiertinc.cl`)).
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
-| [Web de JaviertINC](https://javiertinc.cl) | \<a href="https://javiertinc.cl" target="_blank">Web de JaviertINC\</a> | <a href="https://javiertinc.cl" target="_blank">Hola Mundo</a> |
+| \[Web de JaviertINC](`https://javiertinc.cl`) | \<a href="`https://javiertinc.cl`" target="_blank">Web de JaviertINC\</a> | <a href="https://javiertinc.cl" target="_blank">Hola Mundo</a> |
 
 ---
 
