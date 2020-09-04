@@ -14,7 +14,7 @@ El sintaxis básico de jtDown está basado en el funcionamiento de MarkDown.
 
 ### Títulos
 
-Para crear un encabezado, agregue signos numéricos o hashtag (#) delante de una palabra o frase. El número de signos numéricos que utilice debe corresponder al nivel de título. Por ejemplo, para crear un título de nivel tres (\<h3>), utilice tres signos numéricos (por ejemplo, ### Mi encabezado).
+Para crear un encabezado, agregue signos numéricos o hashtag `#` delante de una palabra o frase. El número de signos numéricos que utilice debe corresponder al nivel de título. Por ejemplo, para crear un título de nivel tres `\<h3>`, utilice tres signos numéricos (por ejemplo, `### Hola Mundo`).
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
@@ -46,7 +46,7 @@ Para crear párrafos, use una línea en blanco para separar una o más líneas d
 
 ### Saltos de Linea
 
-Para crear un salto de línea (\<br>), finalice una línea con dos o más espacios y luego escriba ENTER.
+Para crear un salto de línea `\<br>`, finalice una línea con dos o más espacios y luego escriba ENTER.
 También con dos saltos de linea (ENTER ENTER)  
 (Representé los dos espacios con guines bajos para mejor visualización, pero se deben usar dos espacios)
 
@@ -71,7 +71,7 @@ Para poner el texto en negrita, agregue dos asteriscos bajos antes y después de
 
 ### Italic (Cursiva)
 
-Para poner el texto en cursiva, agregue dos slash (//) antes y después de una palabra o frase. Para poner en cursiva la mitad de una palabra para dar énfasis, agregue el doble slash sin espacios alrededor de las letras.
+Para poner el texto en cursiva, agregue dos slash `//` antes y después de una palabra o frase. Para poner en cursiva la mitad de una palabra para dar énfasis, agregue el doble slash sin espacios alrededor de las letras.
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
@@ -82,7 +82,7 @@ Para poner el texto en cursiva, agregue dos slash (//) antes y después de una p
 
 ### Strikethrough (Tachado)
 
-Para tachar el texto, agregue dos almhoadillas (\~~) antes y después de una palabra o frase. Para tachar la mitad de una palabra para dar énfasis, agregue el doble almohadillas sin espacios alrededor de las letras.
+Para tachar el texto, agregue dos almhoadillas `\~~` antes y después de una palabra o frase. Para tachar la mitad de una palabra para dar énfasis, agregue el doble almohadillas sin espacios alrededor de las letras.
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
@@ -93,7 +93,7 @@ Para tachar el texto, agregue dos almhoadillas (\~~) antes y después de una pal
 
 ### Underline (Subrayado)
 
-Para subrayar el texto, agregue dos guiones bajo (\_\_) antes y después de una palabra o frase. Para tachar la mitad de una palabra para dar énfasis, agregue los dos guiones bajos sin espacios alrededor de las letras.
+Para subrayar el texto, agregue dos guiones bajo `\_\_` antes y después de una palabra o frase. Para tachar la mitad de una palabra para dar énfasis, agregue los dos guiones bajos sin espacios alrededor de las letras.
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
@@ -104,7 +104,7 @@ Para subrayar el texto, agregue dos guiones bajo (\_\_) antes y después de una 
 
 ### Citas (Quotes)
 
-Para citar textos, agregue dos puntos con doble comillas (\:\") antes y doble comillas con dos puntos (\"\:) después de una palabra o frase.
+Para citar textos, agregue dos puntos con doble comillas `\:\"` antes y doble comillas con dos puntos `\"\:` después de una palabra o frase.
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
@@ -124,7 +124,7 @@ Para citar textos en un bloque, agregue un signo mayor al inicio de una linea de
 
 ### Enlaces
 
-Para crear un enlace, incluya el texto del enlace entre corchetes (por ejemplo, \[Web de JaviertINC]) y luego sígalo inmediatamente con la URL entre paréntesis (por ejemplo, (`https://javiertinc.cl`)).
+Para crear un enlace, incluya el texto del enlace entre corchetes (por ejemplo, `\[Web de JaviertINC]`) y luego sígalo inmediatamente con la URL entre paréntesis (por ejemplo, `(https://javiertinc.cl)`).
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
