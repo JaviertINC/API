@@ -10,6 +10,8 @@ Actualmente está integrado en el editor de mi herramienta [Teextus](https://jav
 
 El sintaxis básico de jtDown está basado en el funcionamiento de MarkDown.
 
+---
+
 ### Títulos
 
 Para crear un encabezado, agregue signos numéricos o hashtag (#) delante de una palabra o frase. El número de signos numéricos que utilice debe corresponder al nivel de título. Por ejemplo, para crear un título de nivel tres (\<h3>), utilice tres signos numéricos (por ejemplo, ### Mi encabezado).
@@ -65,6 +67,7 @@ Para poner el texto en negrita, agregue dos asteriscos bajos antes y después de
 | **Hola Mundo** | \<strong>Hola Mundo\</strong> | <strong>Hola Mundo</strong> |
 | **Hola M**undo | \<strong>Hola M\</strong>undo | <strong>Hola M</strong>undo |
 
+---
 
 ### Italic (Cursiva)
 
