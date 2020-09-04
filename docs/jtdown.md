@@ -90,3 +90,28 @@ Para tachar el texto, agregue dos almhoadillas (\~~) antes y después de una pal
 |---|---|---|
 | \~\~Hola Mundo\~\~ | \<del>Hola Mundo\</del> | <del>Hola Mundo</del> |
 | \~\~Hola M\~\~undo | \<del>Hola M\</del>undo | <del>Hola M</del>undo |
+
+---
+
+### Underline (Subrayado)
+
+Para subrayar el texto, agregue dos guiones bajo (\_\_) antes y después de una palabra o frase. Para tachar la mitad de una palabra para dar énfasis, agregue los dos guiones bajos sin espacios alrededor de las letras.
+
+
+| jtDown | Código en HTML | Previsualización |
+|---|---|---|
+| \_\_Hola Mundo\_\_ | \<u>Hola Mundo\</u> | <del>Hola Mundo</del> |
+| \_\_Hola M\_\_undo | \<u>Hola M\</u>undo | <del>Hola M</del>undo |
+
+---
+
+### Citas (Quotes)
+
+Para citar textos, agregue dos puntos con doble comillas (\:\") antes y doble comillas con dos puntos (\"\:) después de una palabra o frase.
+
+
+| jtDown | Código en HTML | Previsualización |
+|---|---|---|
+| \:\"Hola Mundo\"\: | \<q>Hola Mundo\</q> | <q>Hola Mundo</q> |
+| \:\"Hola M\"\:undo | \<q>Hola M\</q>undo | <q>Hola M</q>undo |
+
