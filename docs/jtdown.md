@@ -10,7 +10,6 @@ Actualmente está integrado en el editor de mi herramienta [Teextus](https://jav
 
 El sintaxis básico de jtDown está basado en el funcionamiento de MarkDown.
 
----
 
 ### Títulos
 
@@ -31,7 +30,6 @@ Por compatibilidad, siempre ponga un espacio entre los signos numéricos y el no
 | --- | --- |
 | # Hola Mundo | #Hola Mundo |
 
----
 
 ### Párrafos
 
@@ -42,7 +40,6 @@ Para crear párrafos, use una línea en blanco para separar una o más líneas d
 | Hola Mundo | \<p>Hola Mundo\</p> | <p>Hola Mundo</p> |
 | Lorem ipsum eius exercitationem expedita id sunt tempora. Totam quia nihil reprehenderit laborum. Quia suscipit aut et. | \<p>Lorem ipsum eius exercitationem expedita id sunt tempora. Totam quia nihil reprehenderit laborum. Quia suscipit aut et.\</p> | <p>Lorem ipsum eius exercitationem expedita id sunt tempora. Totam quia nihil reprehenderit laborum. Quia suscipit aut et.</p> |
 
----
 
 ### Saltos de Linea
 
@@ -55,7 +52,6 @@ También con dos saltos de linea (ENTER ENTER)
 | Hola Mundo__<br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
 | Hola Mundo<br/><br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
 
----
 
 ### Bold (Negrita)
 
@@ -67,7 +63,6 @@ Para poner el texto en negrita, agregue dos asteriscos bajos antes y después de
 | **Hola Mundo** | \<strong>Hola Mundo\</strong> | <strong>Hola Mundo</strong> |
 | **Hola M**undo | \<strong>Hola M\</strong>undo | <strong>Hola M</strong>undo |
 
----
 
 ### Italic (Cursiva)
 
@@ -78,7 +73,6 @@ Para poner el texto en cursiva, agregue dos slash `//` antes y después de una p
 | //Hola Mundo// | \<em>Hola Mundo\</em> | <em>Hola Mundo</em> |
 | //Hola M//undo | \<em>Hola M\</em>undo | <em>Hola M</em>undo |
 
----
 
 ### Strikethrough (Tachado)
 
@@ -89,7 +83,6 @@ Para tachar el texto, agregue dos almhoadillas `~~` antes y después de una pala
 | \~\~Hola Mundo\~\~ | \<del>Hola Mundo\</del> | <del>Hola Mundo</del> |
 | \~\~Hola M\~\~undo | \<del>Hola M\</del>undo | <del>Hola M</del>undo |
 
----
 
 ### Underline (Subrayado)
 
@@ -100,7 +93,6 @@ Para subrayar el texto, agregue dos guiones bajo `__` antes y después de una pa
 | \_\_Hola Mundo\_\_ | \<u>Hola Mundo\</u> | <u>Hola Mundo</u> |
 | \_\_Hola M\_\_undo | \<u>Hola M\</u>undo | <u>Hola M</u>undo |
 
----
 
 ### Citas (Quotes)
 
@@ -110,7 +102,6 @@ Para citar textos, agregue dos puntos con doble comillas `:"` antes y doble comi
 |---|---|---|
 | \:\"Hola Mundo\"\: | \<q>Hola Mundo\</q> | <q>Hola Mundo</q> |
 
----
 
 ### Citas en bloques (Blockquotes)
 
@@ -120,7 +111,6 @@ Para citar textos en un bloque, agregue un signo mayor al inicio de una linea de
 |---|---|---|
 | \> Hola Mundo | \<blockquote>Hola Mundo\</blockquote> | <blockquote>Hola Mundo</blockquote> |
 
----
 
 ### Enlaces
 
@@ -130,7 +120,6 @@ Para crear un enlace, incluya el texto del enlace entre corchetes (por ejemplo, 
 |---|---|---|
 | \[Web de JaviertINC](https://javiertinc.cl) | \<a href="https://javiertinc.cl" target="_blank">Web de JaviertINC\</a> | <a href="https://javiertinc.cl" target="_blank">Hola Mundo</a> |
 
----
 
 # Extras
 
