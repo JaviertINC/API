@@ -49,6 +49,40 @@ Captys Theme es el estilo original de la plataforma, si no se asigna ningún est
 [captys-512x258](https://javiertinc.cl/captys/c/2ddgHDy)
 
 #### Light Theme
+
+Este tema está pensado para las páginas con un estilo de tonos claros.
+
+```
+<blockquote class="jt-captys-embed" data-id="T08Ftpk" data-theme="light" data-width="512" data-height="260">
+  <a href="https://javiertinc.cl/captys/c/T08Ftpk" target="_blank">Ver captura</a>
+</blockquote>
+<script async src="//javiertinc.cl/libs/js/captys.embed.js" charset="utf-8"></script>
+```
+
+[captys-512x258](https://javiertinc.cl/captys/c/T08Ftpk)
+
 #### Dark Theme
+
+Este tema está pensado para las páginas con un estilo de tonos oscuros.
+
+```
+<blockquote class="jt-captys-embed" data-id="0dd7i4Q" data-theme="dark" data-width="512" data-height="260">
+  <a href="https://javiertinc.cl/captys/c/0dd7i4Q" target="_blank">Ver captura</a>
+</blockquote>
+<script async src="//javiertinc.cl/libs/js/captys.embed.js" charset="utf-8"></script>
+```
+
+[captys-512x258](https://javiertinc.cl/captys/c/0dd7i4Q)
+
 #### DarkGreen Theme
- 
+
+Este tema está pensado para las páginas con un estilo de tonos oscuros.
+
+```
+<blockquote class="jt-captys-embed" data-id="ePm22SM" data-theme="darkgreen" data-width="512" data-height="260">
+  <a href="https://javiertinc.cl/captys/c/ePm22SM" target="_blank">Ver captura</a>
+</blockquote>
+<script async src="//javiertinc.cl/libs/js/captys.embed.js" charset="utf-8"></script>
+```
+
+[captys-512x258](https://javiertinc.cl/captys/c/ePm22SM)
