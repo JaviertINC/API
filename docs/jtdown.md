@@ -128,7 +128,7 @@ Para crear un enlace, incluya el texto del enlace entre corchetes (por ejemplo, 
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
-| \[Web de JaviertINC](`https://javiertinc.cl`) | \<a href="`https://javiertinc.cl`" target="_blank">Web de JaviertINC\</a> | <a href="https://javiertinc.cl" target="_blank">Hola Mundo</a> |
+| \[Web de JaviertINC](https://javiertinc.cl) | \<a href="https://javiertinc.cl" target="_blank">Web de JaviertINC\</a> | <a href="https://javiertinc.cl" target="_blank">Hola Mundo</a> |
 
 ---
 
@@ -155,8 +155,8 @@ También puedes integrar capturas compartidas a través de Captys.
 Similar a un enlace, pero debes definir estos valores \[captys-ANCHOxALTO](ID o enlace de la captura)
 
 ```
-[captys-512x512](https://javiertinc.cl/captys/c/wchlMyp)
 [captys-512x512](wchlMyp)
+[captys-512x512](https://javiertinc.cl/captys/c/wchlMyp)
 ```
 Nota: En Captys, al subir tu captura, se generará un código de Inserción EMBED para Teextus, puedes copiarlo listo para usar con jtDown.js
 
