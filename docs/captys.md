@@ -59,7 +59,7 @@ Este tema está pensado para las páginas con un estilo de tonos claros.
 <script async src="//javiertinc.cl/libs/js/captys.embed.js" charset="utf-8"></script>
 ```
 
-[captys-512x258](https://javiertinc.cl/captys/c/T08Ftpk)
+[captys-512x260](https://javiertinc.cl/captys/c/T08Ftpk)
 
 #### Dark Theme
 
@@ -72,7 +72,7 @@ Este tema está pensado para las páginas con un estilo de tonos oscuros.
 <script async src="//javiertinc.cl/libs/js/captys.embed.js" charset="utf-8"></script>
 ```
 
-[captys-512x258](https://javiertinc.cl/captys/c/0dd7i4Q)
+[captys-512x260](https://javiertinc.cl/captys/c/0dd7i4Q)
 
 #### DarkGreen Theme
 
@@ -85,4 +85,4 @@ Este tema está pensado para las páginas con un estilo de tonos oscuros.
 <script async src="//javiertinc.cl/libs/js/captys.embed.js" charset="utf-8"></script>
 ```
 
-[captys-512x258](https://javiertinc.cl/captys/c/ePm22SM)
+[captys-512x260](https://javiertinc.cl/captys/c/ePm22SM)
