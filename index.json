@@ -12,7 +12,7 @@
       "status": "1",
       "name": "jtDown.js",
       "file": "jtdown.md",
-      "icon": "fa fa-js"
+      "icon": "fab fa-js"
     },
     {
       "id": "3",
@@ -34,6 +34,13 @@
       "name": "Teextus",
       "file": "teextus.md",
       "icon": "fa fa-envelope-open-text"
+    },
+    {
+      "id": "6",
+      "status": "0",
+      "name": "jtIcons",
+      "file": "jticons.md",
+      "icon": "fab fa-css3-alt"
     }
   ]
 }
