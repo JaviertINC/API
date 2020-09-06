@@ -136,8 +136,6 @@ Ingresa `<3` para retornar un icono de corazón con FontAwesome.
 !!jti-mc-diamond-pickaxe  [BETA]
 ```
 
----
-
 ### Captys Embed
 
 También puedes integrar capturas compartidas a través de Captys.
@@ -149,7 +147,6 @@ Similar a un enlace, pero debes definir estos valores \[captys-ANCHOxALTO](ID o 
 ```
 Nota: En Captys, al subir tu captura, se generará un código de Inserción EMBED para Teextus, puedes copiarlo listo para usar con jtDown.js
 
----
 
 ### Youtube Embed Videos
 
@@ -161,5 +158,7 @@ Similar a un enlace, pero debes definir estos valores \[yt](ID o enlace del vide
 [yt](https://youtu.be/PZmhpH7DPug)
 [yt](https://youtube.com/watch?v=PZmhpH7DPug)
 [yt](https://youtube.com/embed/PZmhpH7DPug)
+[yt](https://www.youtube.com/watch?v=PZmhpH7DPug)
+[yt](https://www.youtube.com/embed/PZmhpH7DPug)
 [yt](https://www.youtube-nocookie.com/embed/PZmhpH7DPug)
 ```
