@@ -17,18 +17,18 @@ Para crear un encabezado, agregue signos numéricos o hashtag `#` delante de una
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
-| # Título 1 | \<h1>Título 1\</h1> | <h1>Título 1</h1> | 
-| ## Título 2 | \<h2>Título 2\</h2> | <h2>Título 2</h2> |
-| ### Título 3 | \<h3>Título 3\</h3> | <h3>Título 3</h3> |
-| #### Título 4 | \<h4>Título 4\</h4> | <h4>Título 4</h4> |
-| ##### Título 5 | \<h5>Título 5\</h5> | <h5>Título 5</h5> |
-| ###### Título 6 | \<h6>Título 6\</h6> | <h6>Título 6</h6> |
+| `# Título 1` | `<h1>Título 1</h1>` | <h1>Título 1</h1> | 
+| `## Título 2` | `<h2>Título 2</h2>` | <h2>Título 2</h2> |
+| `### Título 3` | `<h3>Título 3</h3>` | <h3>Título 3</h3> |
+| `#### Título 4` | `<h4>Título 4</h4>` | <h4>Título 4</h4> |
+| `##### Título 5` | `<h5>Título 5</h5>` | <h5>Título 5</h5> |
+| `###### Título 6` | `<h6>Título 6</h6>` | <h6>Título 6</h6> |
 
 Por compatibilidad, siempre ponga un espacio entre los signos numéricos y el nombre del encabezado. En caso contrario, no se considerará como un título.
 
 | Uso Correcto | Uso Incorrecto |
 | --- | --- |
-| # Hola Mundo | #Hola Mundo |
+| `# Hola Mundo` | `#Hola Mundo` |
 
 
 ### Párrafos
@@ -37,8 +37,8 @@ Para crear párrafos, use una línea en blanco para separar una o más líneas d
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
-| Hola Mundo | \<p>Hola Mundo\</p> | <p>Hola Mundo</p> |
-| Lorem ipsum eius exercitationem expedita id sunt tempora. Totam quia nihil reprehenderit laborum. Quia suscipit aut et. | \<p>Lorem ipsum eius exercitationem expedita id sunt tempora. Totam quia nihil reprehenderit laborum. Quia suscipit aut et.\</p> | <p>Lorem ipsum eius exercitationem expedita id sunt tempora. Totam quia nihil reprehenderit laborum. Quia suscipit aut et.</p> |
+| `Hola Mundo` | `<p>Hola Mundo</p>` | <p>Hola Mundo</p> |
+| ```Lorem ipsum eius exercitationem expedita id sunt tempora. Totam quia nihil reprehenderit laborum. Quia suscipit aut et.``` | `<p>Lorem ipsum eius exercitationem expedita id sunt tempora. Totam quia nihil reprehenderit laborum. Quia suscipit aut et.</p>` | <p>Lorem ipsum eius exercitationem expedita id sunt tempora. Totam quia nihil reprehenderit laborum. Quia suscipit aut et.</p> |
 
 
 ### Saltos de Linea
@@ -49,8 +49,8 @@ También con dos saltos de linea (ENTER ENTER)
 
 | jtDown | Código en HTML | Previsualización |
 |---|---|---|
-| Hola Mundo__<br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
-| Hola Mundo<br/><br/>Hello World | \<p>Hola Mundo\<br/>Hello World\</p> | <p>Hola Mundo<br/>Hello World</p> |
+| `Hola Mundo__`<br/>`Hello World` | `<p>Hola Mundo<br/>Hello World</p>` | <p>Hola Mundo<br/>Hello World</p> |
+| `Hola Mundo`\n\n`Hello World` | `<p>Hola Mundo<br/>Hello World\</p>` | <p>Hola Mundo<br/>Hello World</p> |
 
 
 ### Bold (Negrita)
