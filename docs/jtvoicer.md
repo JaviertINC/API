@@ -24,11 +24,9 @@ GET https://javiertinc.cl/api/v1/jtVoicer/jt.voicer
 ```
 
 ### Parámetros
-| Parámetro | Tipo | Valor por Defecto | Importancia | Descripción |  
-| :-----: | :-----: | :-----: | :-----: | --- |  
-| `text` | `VARCHAR` | `NULL` | Requerido | Ingresa el texto que quieres transformar a Voz. |  
-| `volume` | `FLOAT` | `1.0` | Opcional | Volumen del audio de la voz. |  
-| `api` | `VARCHAR` | `NULL` | Requerido | Debes ingresar tu clave API pública. |  
+| Parámetro | Tipo | Valor por Defecto | Importancia | Descripción |
+| :-----: | :-----: | :-----: | :-----: | ----- |
+| `text` | `VARCHAR` | `NULL` | Requerido | Ingresa el texto que quieres transformar a Voz. |
 
 ### Retorno
 ```
