@@ -24,19 +24,17 @@ GET https://javiertinc.cl/api/v1/jtVoicer/jt.voicer
 ```
 
 ### Parámetros
+
 | Parámetro | Tipo | Valor por Defecto | Importancia | Descripción |
-
-
-| P | T | V | I | D |
-| :---: | :---: | :---: | :---: | :--- |
-| `text` | `VARCHAR` | `NULL` | Requerido | Ingresa el texto que quieres transformar a Voz. |
+|:---------:|:----:|:-----------------:|:-----------:|-------------|
+| `text` | `VARCHAR` | `NULL` | Requerido | Ingresa el texto que quieres transformar a Voz. Debe estar codificado para URL |
 | `lang` | `VARCHAR` | `es-MX` | Opcional | Idioma con el que hablará la voz, revisa [aquí](#idiomas) la lista de idiomas disponibles. |
 | `volume` | `FLOAT` | `1.0` | Opcional | Volumen de la voz en el audio. |
 | `api` | `VARCHAR` | `NULL` | Requerido | Debes ingresar tu Clave API Pública. |
 
 ### Retorno
 ```
-GET https://javiertinc.cl/api/v1/jtVoicer/jt.voicer?text="+ encodeURI(txt) +"&lang=es-MX&volume=0.7&api={CLAVE_API}
+GET https://javiertinc.cl/api/v1/jtVoicer/jt.voicer?text=Hola%20Mundo&lang=es-MX&volume=0.7&api={CLAVE_API}
 ```
 
 # Idiomas
