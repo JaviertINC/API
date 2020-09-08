@@ -41,29 +41,29 @@ GET https://javiertinc.cl/api/v1/jtVoicer/jt.voicer?text=Hola%20Mundo&lang=es-MX
 La integración mostrada a continuación, requiere FontAwesome, jQuery y Popper.js
 El código aquí mostrado, fue creado y diseñado para mi página web.
 
-#### Código HTML
+### HTML
 ```
-//Botón para ejecutar la función
+<!-- Botón para ejecutar la función -->
     <jt data-jtvoicer="{TEXTO_A_TRANSFORMAR}" data-toggle="tooltip" title="Escuchar" tabindex="0">
         <i class="fa fa-volume-up fa-fw"></i> Escuchar
     </jt>
 
-//Aquí están los configuradores de jtVoicer
-    //Modificador de Volumen
+<!-- Aquí están los modificadores de jtVoicer -->
+    <!-- Modificador de Volumen -->
     <input type="hidden" id="jtVoicerVolume" value="1.0">
     
-    //Modificador de Idioma
+    <!-- Modificador de Idioma -->
 	<input type="hidden" id="jtVoicerLang" value="es-MX">
 	
-	//Reproductor de la voz
+    <!-- Reproductor del audio -->
 	<div data-jt-voice="{CLAVE_API_PÚBLICA}"></div>
 	
-	//Botón de STOP para detener el audio.
+    <!-- Botón de STOP para detener el audio -->
 	<div id="jtVoicerStop" style="background: url('https://i.yesly.cl/jt/lxaxaTKUccBlUJCNUoh77w');">
 	    <i class="fa fa-stop fa-fw"></i>
 	</div>
 ```
-#### Javascript
+### Javascript
 ```
     //Detecta cuando se haga click en los botónes jtVoicer y ejecuta la función
     $("[data-jtvoicer]").on('click',function(){
@@ -96,7 +96,7 @@ El código aquí mostrado, fue creado y diseñado para mi página web.
     	var volume = $("#jtVoicerVolume").val();
     	if(volume > 0.1 && volume < 1.1){
     		$("#jtVoicerStop").addClass("active");
-    		var r = "https://javiertinc.cl/api/v1/jtVoicer/jt.voicer?text="+ encodeURI(txt) +"&lang=" + lang + "&volume="+ volume +"&api=xkdrzyiKy3oqPYYT8hiEA39x52RNxncf";
+    		var r = "https://javiertinc.cl/api/v1/jtVoicer/jt.voicer?text="+ encodeURI(txt) +"&lang=" + lang + "&volume="+ volume +"&api={AQUI_TU_CLAVE_API_PÚBLICA}";
     		$("[data-jt-voice]").html('<audio id="jtVoicerPlayer" src="' + r +'" autoplay>');
     		$("#jtVoicerPlayer").bind("ended", function() {
     			jtVoicer_stop();
@@ -105,7 +105,7 @@ El código aquí mostrado, fue creado y diseñado para mi página web.
     }
     
 ```
-#### CSS
+### CSS
 
 Estilos diseñados para mi página web
 ```
