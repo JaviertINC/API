@@ -5,35 +5,35 @@
       "status": "1",
       "name": "Captys",
       "file": "captys.md",
-      "icon": "fa fa-cubes"
+      "icon": "fa fa-image"
     },
     {
       "id": "2",
+      "status": "0",
+      "name": "Teextus",
+      "file": "teextus.md",
+      "icon": "fa fa-envelope-open-text"
+    },
+    {
+      "id": "3",
       "status": "1",
       "name": "jtDown.js",
       "file": "jtdown.md",
       "icon": "fab fa-js"
     },
     {
-      "id": "3",
+      "id": "4",
       "status": "1",
       "name": "jtVoicer",
       "file": "jtvoicer.md",
       "icon": "fa fa-volume-up"
     },
     {
-      "id": "4",
+      "id": "5",
       "status": "0",
       "name": "jtImages",
       "file": "jtimages.md",
       "icon": "fa fa-images"
-    },
-    {
-      "id": "5",
-      "status": "0",
-      "name": "Teextus",
-      "file": "teextus.md",
-      "icon": "fa fa-envelope-open-text"
     },
     {
       "id": "6",
