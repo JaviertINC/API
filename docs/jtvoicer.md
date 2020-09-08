@@ -16,7 +16,7 @@ Es necesario contar una clave api, para poder utilizar esta herramienta en tus p
 
 # ¿Cómo se integra?
 
-
+La API  está diseñada para funcionar de una forma simple, solo se deben integrar algunos valores y retornará un archivo `.jt-audio` de *128bits*, reproducible como audio en cualquier navegador y/o reproductor multimedia.
 
 ### Endpoint
 ```
@@ -25,7 +25,7 @@ GET https://javiertinc.cl/api/v1/jtVoicer/jt.voicer
 
 ### Parámetros
 | Parámetro | Tipo | Valor por Defecto | Importancia | Descripción |  
-| :---: | :---: | :---: | :---: | :--- |  
+| :-----: | :-----: | :-----: | :-----: | --- |  
 | `text` | VARCHAR | `NULL` | Requerido | Ingresa el texto que quieres transformar a Voz. |  
 | `lang` | VARCHAR | `es-MX` | Opcional | Elige el idioma en el cual debe hablar la voz, ve [aquí](#idiomas) la lista de idiomas. |  
 | `volume` | FLOAT | `1.0` | Opcional | Volumen del audio de la voz. |  
@@ -35,7 +35,7 @@ GET https://javiertinc.cl/api/v1/jtVoicer/jt.voicer
 # Idiomas
 
 | Idioma | Código |
-| :---: | :---: |
+| --- | :-----: |
 | Español Latino | `es-MX` |
 | Inglés USA | `en-US` |
 | Español España | `es-ES` |
