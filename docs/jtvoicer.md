@@ -12,7 +12,7 @@ Es muy fácil, solo debes clickear o accionar el botón para escuchar, y se tran
 
 ##### API Key Required
 
-Es necesario contar una clave api, para poder utilizar esta herramienta en tus proyectos.
+> Es necesario contar una clave api, para poder utilizar esta herramienta en tus proyectos. Puedes adquirir tu clave API [aquí](https://javiertinc.cl/api/apikey).
 
 # ¿Cómo se integra?
 
