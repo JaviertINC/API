@@ -65,13 +65,13 @@ El código aquí mostrado, fue creado y diseñado para mi página web.
 ```
 ### Javascript
 ```
-    //Detecta cuando se haga click en los botónes jtVoicer y ejecuta la función
+    // Detecta cuando se haga click en los botónes jtVoicer y ejecuta la función
     $("[data-jtvoicer]").on('click',function(){
         var msg = $(this).data("jtvoicer");
     	jtVoicer(msg);
     });
     
-    //Detecta cuando se ejecuta a través de el teclado con la tecla ENTER
+    // Detecta cuando se ejecuta a través de el teclado con la tecla ENTER
     $("[data-jtvoicer]").on("keypress",function(e){
     	if(e.which == 13) {
     		var msg = $(this).data("jtvoicer");
@@ -79,18 +79,18 @@ El código aquí mostrado, fue creado y diseñado para mi página web.
     	}
     });
    
-   //Detecta cuando se clickea el botón de STOP
+   // Detecta cuando se clickea el botón de STOP
     $("#jtVoicerStop").on('click',function(){
 	    jtVoicer_stop();
     });
     
-    //Función para detener el audio 
+    // Función para detener el audio 
     function jtVoicer_stop(){
     	$("#jtVoicerPlayer").remove();
     	$("#jtVoicerStop").removeClass("active");
     }
     
-    //Función para ejecutar el audio
+    // Función para ejecutar el audio
     function jtVoicer(txt) {
     	var lang = $("#jtVoicerLang").val();
     	var volume = $("#jtVoicerVolume").val();
