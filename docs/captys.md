@@ -1,6 +1,7 @@
 # Captys
 
 Una plataforma para compartir capturas e imágenes totalmente gratuita, sin registros ni contraseñas.
+[¡Pruebala ahora mismo!](https://javiertinc.cl/captys)
 
 # Captys Embed
 
