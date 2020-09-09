@@ -56,7 +56,7 @@ El código aquí mostrado, fue creado y diseñado para mi página web.
 	<input type="hidden" id="jtVoicerLang" value="es-MX">
 	
     <!-- Reproductor del audio -->
-	<div data-jt-voice="{CLAVE_API_PÚBLICA}"></div>
+	<div data-jt-voice="{CLAVE_API}"></div>
 	
     <!-- Botón de STOP para detener el audio -->
 	<div id="jtVoicerStop" style="background: url('https://i.yesly.cl/jt/lxaxaTKUccBlUJCNUoh77w');">
@@ -96,7 +96,7 @@ El código aquí mostrado, fue creado y diseñado para mi página web.
     	var volume = $("#jtVoicerVolume").val();
     	if(volume > 0.1 && volume < 1.1){
     		$("#jtVoicerStop").addClass("active");
-    		var r = "https://javiertinc.cl/api/v1/jtVoicer/jt.voicer?text="+ encodeURI(txt) +"&lang=" + lang + "&volume="+ volume +"&api={AQUI_TU_CLAVE_API_PÚBLICA}";
+    		var r = "https://javiertinc.cl/api/v1/jtVoicer/jt.voicer?text="+ encodeURI(txt) +"&lang=" + lang + "&volume="+ volume +"&api={CLAVE_API}";
     		$("[data-jt-voice]").html('<audio id="jtVoicerPlayer" src="' + r +'" autoplay>');
     		$("#jtVoicerPlayer").bind("ended", function() {
     			jtVoicer_stop();
