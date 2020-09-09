@@ -31,12 +31,19 @@
     {
       "id": "5",
       "status": "0",
+      "name": "jtCaptcha",
+      "file": "jtcaptcha.md",
+      "icon": "fa fa-user-check"
+    },
+    {
+      "id": "6",
+      "status": "0",
       "name": "jtImages",
       "file": "jtimages.md",
       "icon": "fa fa-images"
     },
     {
-      "id": "6",
+      "id": "7",
       "status": "0",
       "name": "jtIcons",
       "file": "jticons.md",
