@@ -3,8 +3,6 @@
 Una plataforma para compartir capturas e imágenes totalmente gratuita, sin registros ni contraseñas. [¡Pruebala ahora mismo!](https://javiertinc.cl/captys)
 
 👉 Ve esto mismo a todo color en  mi página de [documentación API](https://javiertinc.cl/api/docs/captys)
-  
-  
 
 # Captys Embed
 
