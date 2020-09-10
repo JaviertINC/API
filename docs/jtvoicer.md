@@ -2,6 +2,8 @@
 
 jtVoicer es una herramienta de accesibilidad para páginas web, implementando Texto a Voz, para personas con dificultad visual y/o personas que no saben leer.
 
+👉 Ve esto mismo a todo color en  mi página de [documentación API](https://javiertinc.cl/api/docs/jtvoicer)
+
 # ¿Dónde se usa?
 
 Actualmente está integrado en mi página web personal [JaviertINC.cl](https://javiertinc.cl), para aumentar la accesibilidad al sitio web.
