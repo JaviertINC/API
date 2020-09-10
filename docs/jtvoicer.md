@@ -42,7 +42,7 @@ La integración mostrada a continuación, requiere FontAwesome, jQuery y Popper.
 El código aquí mostrado, fue creado y diseñado para mi página web.
 
 ### HTML
-```
+``` html
 <!-- Botón para ejecutar la función -->
     <jt data-jtvoicer="{TEXTO_A_TRANSFORMAR}" data-toggle="tooltip" title="Escuchar" tabindex="0">
         <i class="fa fa-volume-up fa-fw"></i> Escuchar
@@ -64,7 +64,7 @@ El código aquí mostrado, fue creado y diseñado para mi página web.
 	</div>
 ```
 ### Javascript
-```
+``` js
     // Detecta cuando se haga click en los botónes jtVoicer y ejecuta la función
     $("[data-jtvoicer]").on('click',function(){
         var msg = $(this).data("jtvoicer");
@@ -108,7 +108,7 @@ El código aquí mostrado, fue creado y diseñado para mi página web.
 ### CSS
 
 Estilos diseñados para mi página web
-```
+``` css
     /* Estilos para el botón jtVoicer */
     [data-jtvoicer]{
     	color: #fff;
