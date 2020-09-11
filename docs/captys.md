@@ -78,7 +78,7 @@ Este tema está pensado para las páginas con un estilo de tonos oscuros.
 
 #### DarkGreen Theme
 
-Este tema está pensado para las páginas con un estilo de tonos oscuros.
+Este tema está pensado para integrarlo en mi página web personal (y en mi [blog](https://javiertinc.cl/blog/)).
 
 ``` html
 <blockquote class="jt-captys-embed" data-id="ePm22SM" data-theme="darkgreen" data-width="512" data-height="260">
