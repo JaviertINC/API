@@ -2,6 +2,8 @@
 
 jtDown.js es un script simple escrito en Javascript, que tiene la función de formatear texto simple a código HTML, similar a [MarkDown](https://www.markdownguide.org/), pero una versión adaptada a mis herramientas.
 
+👉 Ve esto mismo a todo color en  mi página de [documentación API](https://javiertinc.cl/api/docs/jtdown)
+
 # ¿Dónde se usa?
 
 Actualmente está integrado en el editor de mi herramienta [Teextus](https://javiertinc.cl/teextus) y en mi creador de publicaciones en [mi blog](https://javiertinc.cl/blog).
