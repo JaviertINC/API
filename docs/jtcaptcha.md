@@ -71,7 +71,7 @@ if(jtCaptcha("jtCaptcha","<?php echo base64_encode($captcha_num3); ?>")){
 ``` js
 function jtCaptcha(id, n2){
     //Obtiene valor ingresado en el input
-	var n1 = document.getElementById(id).value;
+	let n1 = document.getElementById(id).value;
 	
 	//Verifica que el input no esté vacío
 	if(n1 != ""){
