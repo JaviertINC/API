@@ -89,7 +89,9 @@ Este tema está pensado para integrarlo en mi página web personal (y en mi [blo
 
 [captys-512x260](https://javiertinc.cl/captys/c/ePm22SM)
 
-# Subir una captura
+# Capturas
+
+## Upload (Subir una captura)
 
 ### Upload Endpoint
 
@@ -98,6 +100,7 @@ POST https://javiertinc.cl/api/v1/captys/upload
 ```
 
 ### Upload Parameters
+ * Todos los parametros son requeridos
 
 | Parámetro | Tipo | Valor por Defecto | Formato | Descripción |
 | :---: | :---: | :---: | :---: | --- |
@@ -113,5 +116,28 @@ Retornará datos en JSON
     "status": 200,
     "id": "wchlMyp",
     "dhash": "oDvqzHwFvbqu0IP"
+}
+```
+
+## Delete (Borrar una captura)
+
+### Delete Endpoint
+
+```
+GET https://javiertinc.cl/api/v1/captys/delete
+```
+
+### Delete Parameters
+
+| Parámetro | Tipo | Importancia | Descripción |
+| :---: | :---: | :---: | --- |
+| `dhash` | `VARCHAR` | Requerido | Delete Hash |
+| `api` | `VARCHAR` | Opcional | Debes ingresar tu clave API |
+
+### Delete Return
+Retornará datos en JSON
+``` json
+{
+    "status": 200
 }
 ```
