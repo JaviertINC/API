@@ -11,7 +11,13 @@ Actualmente está integrado en muchos de mis proyectos, algúnos son:
 - Captys
 - Teextus
 - Red AFYRUS
- 
+
+# Integración
+
+Aún no disponible
+
+---
+
 # Código
 
 ### Extras
