@@ -41,7 +41,7 @@ Una integración simple con PHP
     	
     	//Regresa el enlace generado.
     	return "https://javiertinc.cl/i/". $id[0] . "." . $id[1] . $modder;
-	}
+    }
 ?>
 ```
 
