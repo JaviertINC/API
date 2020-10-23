@@ -50,6 +50,13 @@
       "icon": "fa fa-link"
     },
     {
+      "id": 10,
+      "status": 1,
+      "name": "jtStyler",
+      "file": "jtstyler.md",
+      "icon": "fab fa-css3-alt"
+    },
+    {
       "id": 8,
       "status": 0,
       "name": "jtIcons",
