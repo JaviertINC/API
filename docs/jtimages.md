@@ -46,6 +46,19 @@ Ejemplo:
     }
 ```
 
+### Upload Return
+Al subir una imagen correctamente, retornará esta información en JSON:
+```json
+    {
+        "status": 200,
+        "hash": "image/png",
+        "dhash": e2U8NnUEqba3,
+        "size": 125472,
+        "width": 512,
+        "height": 512
+    }
+```
+
 ### Get
 ```
 GET https://javiertinc.cl/api/v1/jtimages/get
