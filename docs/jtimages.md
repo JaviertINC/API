@@ -14,11 +14,47 @@ Actualmente está integrado en muchos de mis proyectos, algúnos son:
 
 # Integración
 
-Aún no disponible
-
----
+La integración de jtImages no es compleja
 
 # Código
+
+### Upload
+```
+POST https://javiertinc.cl/api/v1/jtimages/upload
+```
+
+| Parámetro | Tipo | Importancia | Descripción |
+|:---------:|:----:|:-----------:|-------------|
+| `image` | `base64(image)` | Requerido | Debes enviar la imagen codificada en base64. |
+| `info` | `JSON` | Requerido | En este parametro va información como el nombre y el tipo de imagen |
+| `api` | `VARCHAR` | Requerido | Debes ingresar tu Clave API Pública asociada a tu aplicación. |
+
+Estructura del parámetro `info`
+```json
+    {
+        "name": "{Nombre del archivo}",
+        "mime": "{tipo de la imagen}",
+        "ip": "{ip del usuario que subió la imagen}"
+    }
+```
+Ejemplo:
+```json
+    {
+        "name": "jtImages.png",
+        "mime": "image/png",
+        "ip": "8.8.8.8"
+    }
+```
+
+### Get
+```
+GET https://javiertinc.cl/api/v1/jtimages/get
+```
+
+| Parámetro | Tipo | Importancia | Descripción |
+|:---------:|:----:|:-----------:|-------------|
+| `hash` | `VARCHAR` | Requerido | Debes ingresar el Hash de una imagen subida a jtImages. |
+| `api` | `VARCHAR` | Requerido | Debes ingresar tu Clave API Pública. |
 
 ### Extras
 
@@ -29,18 +65,13 @@ Una integración simple con PHP
 <?php
     function jtImgUrl($id, $modder = ""){
     
-        //Separa el ID de la imágen y la extensión.
-    	$id = explode(".",$id);
-    	
     	//Agrega el modificador si es que hay.
     	if($modder != ""){
     		$modder = "&m=" . $modder;
-    	}else{
-    		$modder = "";
     	}
     	
     	//Regresa el enlace generado.
-    	return "https://javiertinc.cl/i/". $id[0] . "." . $id[1] . $modder;
+    	return "https://javiertinc.cl/i/". $id . $modder;
     }
 ?>
 ```
