@@ -16,14 +16,16 @@ POST https://javiertinc.cl/api/v1/jtdomain/add
 | `data` | `VARCHAR` | POST | Requerido | Debes enviar un String en JSON con los datos del dominio. |
 | `api` | `VARCHAR` | GET | Requerido | Debes ingresar tu Clave API única asociada a tu aplicación. |
 
-Estructura del parámetro `data`
+Estructura del parámetro `data`  
+
 | Parámetro | Tipo | Importancia | Descripción |
 |:---------:|:----:|:-----------:|-------------|
 | `domain` | `VARCHAR` |  Requerido | Nombre del dominio, sin el .cl |
 | `length` | `INTERGER` |  Requerido | Longitud del dominio. |
 | `reserve` | `INTERGER` |  Requerido | Si el dominio está reservado. (0 -> No \| 1 -> Sí) |
 | `status` | `INTERGER` |  Requerido | Si el dominio está comprado o no. (0 -> No \| 1 -> Sí) |
-| `date_reg` | `DATETIME` |  Requerido | Fecha en la que se registró el dominio en Nic o en tu sistema. |
+| `date_reg` | `DATETIME` |  Requerido | Fecha en la que se registró el dominio en Nic o en tu sistema. |  
+
 Ejemplo:
 ```json
     [
