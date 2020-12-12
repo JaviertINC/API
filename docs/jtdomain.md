@@ -1,4 +1,4 @@
-#jtDomain
+# jtDomain
 
 jtDomain es una pequeña herramienta para uso personal y educativo en el cual capturo los dominios recientemente registrados y eliminados de Nic Chile. De esta forma puedo visitar páginas creadas hace poco aprendiendo nuevo estilos o patrones de diseño. Además de aumentar mi creatividad viendo nuevas ideas, junto con los dominios eliminados para crear o recrear proyectos junto a AFYRUS y YeslyDevs.
 
