@@ -61,25 +61,52 @@ GET https://javiertinc.cl/api/v1/jtdomain/list
 
 | Parámetro | Tipo | Método | Importancia | Descripción |
 |:---------:|:----:|:------:|:-----------:|-------------|
-| `search` | `VARCHAR` | GET | Opcional | Consulta de dominios en la base de datos. |
+| `search` | `VARCHAR` | GET | Opcional | Busca dominios que contengan el valor especificado. |
+| `agent` | `NULL` | GET | Opcional | Busca dominios que el nombre del agente contengan valor especificado. (`search` requerido) |
+| `length` | `INTERGER` | GET | Opcional | Mostrar solo dominios con la cantidad de caracteres especificados. |
 | `status` | `INTERGER` | GET | Opcional | Mostrar solo dominios en el status especificado. |
+| `reserve` | `NULL` | GET | Opcional | Mostrar solo dominios reservados. |
+| `rev` | `NULL` | GET | Opcional | Mostrar dominios marcados para revisión. |
+| `dis` | `NULL` | GET | Opcional | Mostrar dominios marcados como descartados. (Estos se autoeliminarán luego de 7 días) |
 | `api` | `VARCHAR` | GET | Requerido | Debes ingresar tu Clave API Pública. |
 
-Retornará
+Se pueden usar varios parametros a la vez.
+
+Ejemplo:
+```
+GET https://javiertinc.cl/api/v1/jtdomain/list?api={CLAVE_API}&reserve&search=JaviertINC
+```
+Retornará:
 ```json
     {
-        "status": 200,
-        "count": 1,
-        "query": "javierinc",
-        "data": [
-            [
-                {
-                    "name":"javiertinc",
-                    "length":10,
-                    "status":1,
-                    "reserve":1
-                }
-            ]
-        ]
+    	"status": 200,
+    	"count": 2,
+    	"query": "javiertinc",
+    	"data": [
+    		[
+    			{
+    				"name": "javiertinc",
+    				"length": 10,
+    				"agent": "@JaviertINC",
+    				"status": 1,
+    				"reserved": 1,
+    				"revision": 0,
+    				"discarded": 0,
+    				"date_reg": "2020-06-03 16:35:41",
+    				"date_mod": "2020-12-12 20:03:11"
+    			},
+    			{
+    				"name": "luiscortes",
+    				"length": 10,
+    				"agent": "@JaviertINC",
+    				"status": 1,
+    				"reserved": 1,
+    				"revision": 0,
+    				"discarded": 0,
+    				"date_reg": "2020-11-21 23:17:36",
+    				"date_mod": "2020-12-12 20:04:16"
+    			}
+    		]
+    	]
     }
 ```
