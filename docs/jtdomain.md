@@ -52,7 +52,7 @@ Retornará información del registro, Status: 200(Satisfactorio) o 500(Error de 
 ```
 
 
-### List
+### Listar Dominios
 ```
 GET https://javiertinc.cl/api/v1/jtdomain/list
 ```
