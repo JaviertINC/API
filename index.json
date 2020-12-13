@@ -37,7 +37,7 @@
     },
     {
       "id": 6,
-      "status": 0,
+      "status": 1,
       "name": "jtImages",
       "file": "jtimages.md",
       "icon": "fa fa-images"
@@ -51,7 +51,7 @@
     },
     {
       "id": 11,
-      "status": 0,
+      "status": 1,
       "name": "jtDomain",
       "file": "jtdomain.md",
       "icon": "fa fa-globe"
