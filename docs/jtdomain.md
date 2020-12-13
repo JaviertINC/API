@@ -70,6 +70,8 @@ GET https://javiertinc.cl/api/v1/jtdomain/list
 | `reserve` | `NULL` | GET | Opcional | Mostrar solo dominios reservados. |
 | `rev` | `NULL` | GET | Opcional | Mostrar dominios marcados para revisión. |
 | `dis` | `NULL` | GET | Opcional | Mostrar dominios marcados como descartados. (Estos se autoeliminarán luego de 7 días) |
+| `last_register` | `INTERGER` | GET | Opcional | Mostrar los ultimos dominios registrados (Min 1 | Max 1024). |
+| `last_deleted` | `INTERGER` | GET | Opcional | Mostrar los ultimos dominios eliminados (Min 1 | Max 1024). |
 | `api` | `VARCHAR` | GET | Requerido | Debes ingresar tu Clave API Pública. |
 
 Se pueden usar varios parametros a la vez.
