@@ -115,3 +115,34 @@ Retornará:
     	]
     }
 ```
+
+
+
+### DNS Info
+```
+GET https://javiertinc.cl/api/v1/jtdomain/dns
+```
+
+| Parámetro | Tipo | Método | Importancia | Descripción |
+|:---------:|:----:|:------:|:-----------:|-------------|
+| `domain` | `VARCHAR` | GET | Requerido | Especifica el dominio. |
+| `api` | `VARCHAR` | GET | Requerido | Debes ingresar tu Clave API Pública. |
+
+
+Ejemplo:
+```
+GET https://javiertinc.cl/api/v1/jtdomain/dns?api={CLAVE_API}&domain=google.cl
+```
+Retornará:
+```json
+    {
+        "status": 200,
+        "domain": "google.cl",
+        "dns": [
+            "ns3.google.com",
+            "ns4.google.com",
+            "ns1.google.com",
+            "ns2.google.com"
+        ]
+    }
+```
